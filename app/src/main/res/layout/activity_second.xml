@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="WEB DEVELOPMENT" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="ANDROID DEVELOPMENT" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/ml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="MACHINE LEARNING" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/ios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="IOS DEVELOPMENT" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200">
+
+            <TextView
+                android:id="@+id/ai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="ARTIFICIAL INTELLIGENCE" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_margin="25dp"
+            android:layout_height="150dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/blockchain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="BLOCKCHIAN" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/devops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="DEVOPS" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="CLOUD COMPUTING" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/bigdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="BIG DATA" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="25dp"
+            android:layout_margin="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="JAVA DEVELOPMENT" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/dataanaytics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="DATA ANALYTICS" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/iot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="INTERNET OF THINGS" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:text="Button" />
+
+
+</LinearLayout>
